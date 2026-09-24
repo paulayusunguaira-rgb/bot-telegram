@@ -12,7 +12,7 @@ from telegram.ext import (
     ContextTypes,
 )
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TZ_COLOMBIA = pytz.timezone('America/Bogota')
 
 STATS = {
