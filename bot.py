@@ -1,4 +1,4 @@
-cat << 'EOF' > bot.py
+
 import os
 import random
 import asyncio
